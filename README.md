@@ -2,7 +2,7 @@
 
 Welcome to my **Python Code** repository!
 
-This repository contains my Python practice programs as I learn and improve my programming skills. It includes beginner-friendly problems focused on logic building, conditional statements, loops, strings, and basic mathematical operations.
+This repository contains Python practice programs as I learn and improve my programming skills. It includes beginner-friendly problems focused on logic building, conditional statements, loops, strings, and basic mathematical operations.
 
 I'm using this repository to document my learning journey and practice Python consistently.
 
