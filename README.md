@@ -1,96 +1,115 @@
-# 🐍 Python Code
+# 🐍 Python Fundamentals & Practice
 
-Welcome to my **Python Code** repository!
+Welcome to my **Python Fundamentals & Practice** repository! 👋
 
-This repository contains Python practice programs as I learn and improve my programming skills. It includes beginner-friendly problems focused on logic building, conditional statements, loops, strings, and basic mathematical operations.
+This repository contains my Python learning exercises, practice programs, and problem-solving solutions. It documents my journey from basic Python programming to working with lists, dictionaries, data structures, and common coding interview problems.
 
-I'm using this repository to document my learning journey and practice Python consistently.
+The repository includes both Python scripts and a Jupyter Notebook created using Google Colab.
 
 ## 📚 Topics Covered
 
-### 🔹 Basic Programming
-- Even or odd number
+### 🔹 Python Basics
+- Reversing strings
+- Checking even and odd numbers
 - Prime number checking
+- Fibonacci series
+- Factorial calculation
+- Sum of digits
+- Palindrome checking
 - Finding the greatest and smallest among three numbers
 - Swapping two numbers
-- Sum of digits
 
-### 🔹 Loops and Number Series
-- Fibonacci series using iteration
-- Factorial calculation
-- Reversing a string
-- Counting elements in a list
-
-### 🔹 Strings
-- Palindrome checking
-- Removing spaces from a string
-- Converting lowercase text to uppercase
+### 🔹 Strings and Lists
+- String slicing and manipulation
+- Removing spaces and changing letter case
 - Counting vowels and consonants
-- Checking whether a character is a vowel or consonant
+- Finding the sum and average of list elements
+- Sorting lists
+- Finding duplicate elements
+- Counting element frequencies
 
-### 🔹 Mathematical Programs
-- Celsius to Fahrenheit conversion
-- Fahrenheit to Celsius conversion
-- Average of a list of numbers
-- Simple interest calculation
+### 🔹 Dictionaries and Data Structures
+- Dictionary operations
+- Shallow copy and deep copy
+- Working with nested lists
+- Counting element and character frequencies
+- Finding the most frequent element
+- Finding the first and last non-repeating elements
+
+### 🔹 Coding Challenges
+- Two Sum problem
+- Grouping anagrams
+- Top K Frequent Elements
+- Longest Consecutive Sequence
+- Subarray Sum Equals K
+
+### 🔹 Mathematical and Real-World Programs
+- Celsius and Fahrenheit conversion
 - Leap year checking
-
-### 🔹 Real-World Practice Problems
-- Simple billing system with GST
+- Simple interest calculation
+- Billing system with 5% GST
 - Student grading system
 - Basic ATM withdrawal simulation
 - Student attendance calculation
-- Electricity bill calculation using unit slabs
+- Electricity bill calculation using consumption slabs
 
 ## 🛠️ Technologies Used
 
 - **Language:** Python
-- **Practice Environment:** Google Colab
+- **Notebook Environment:** Google Colab / Jupyter Notebook
 - **Version Control:** Git and GitHub
-
-## 🎯 Learning Goals
-
-- Strengthen my Python fundamentals.
-- Improve problem-solving and logical thinking.
-- Practice writing readable and understandable code.
-- Build consistency through regular coding practice.
-- Track my progress as I learn new programming concepts.
 
 ## 📂 Repository Structure
 
 ```text
 Python-Code/
 ├── README.md
-└── basics.py
+├── basics(1).py
+└── Python_fundamentals.ipynb
 ```
+
+- `basics.py` — Python basics, mathematical programs, conditional statements, loops, strings, and practical exercises.
+- `Python_fundamentals.ipynb` — Python practice involving lists, dictionaries, copying, sorting, frequency counting, and coding challenges.
 
 ## 🚀 How to Run
 
-1. Install Python on your computer, or open Google Colab.
+### Option 1: Run the Python Script
+
+1. Install Python on your computer.
 2. Clone or download this repository.
-3. Open `basics.py` in your preferred editor.
-4. Run the program and enter the requested input when prompted.
-
-To clone the repository:
+3. Open a terminal in the repository folder.
+4. Run the following command:
 
 ```bash
-git clone https://github.com/NikitaRakhade29/Python-Code.git
+python "basics.py"
 ```
 
-To run the file from a terminal:
+Follow the prompts to enter input whenever requested.
 
-```bash
-python basics.py
-```
+### Option 2: Run the Jupyter Notebook
 
-**Note:** The file contains multiple practice programs, and some ask for user input. Follow the prompts when running the script.
+1. Open [Google Colab](https://colab.research.google.com/).
+2. Upload `Python_fundamentals.ipynb`.
+3. Run the cells individually or use **Runtime → Run all**.
+
+You can also open the notebook locally using Jupyter Notebook or JupyterLab.
+
+## 🎯 Learning Goals
+
+- Build a strong foundation in Python programming.
+- Improve logical thinking and problem-solving skills.
+- Understand Python lists, dictionaries, strings, and copying techniques.
+- Practice common data structure and algorithm problems.
+- Write cleaner, more readable, and efficient code.
+- Track my progress through consistent hands-on practice.
 
 ## 🌱 My Learning Journey
 
-This repository will grow as I practice more Python problems, explore new concepts, and improve my coding skills.
+This repository is part of my continuous learning journey in Python. I will keep adding practice programs, exploring new concepts, and solving more challenging problems as I improve my programming skills.
 
-I'm learning step by step, one program at a time!
+**Learning step by step, solving problems, and growing as a programmer!** 🚀
 
 ---
 
-⭐ Thank you for visiting my repository!
+⭐ If you find this repository useful, feel free to explore the code and follow my learning journey.
+
