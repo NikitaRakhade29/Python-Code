@@ -63,9 +63,9 @@ The repository includes both Python scripts and a Jupyter Notebook created using
 
 ```text
 Python-Code/
+├── Python_fundamentals.ipynb
 ├── README.md
-├── basics(1).py
-└── Python_fundamentals.ipynb
+└── basics.py
 ```
 
 - `basics.py` — Python basics, mathematical programs, conditional statements, loops, strings, and practical exercises.
