@@ -1,51 +1,78 @@
+<div align="center">
+
 # 🐍 Python Fundamentals & Practice
 
-Welcome to my **Python Fundamentals & Practice** repository! 👋
+**A hands-on collection of Python programs, core-concept notebooks, and coding-interview problems.**
 
-This repository contains my Python learning exercises, practice programs, and problem-solving solutions. It documents my journey from basic Python programming to working with lists, dictionaries, data structures, and common coding interview problems.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google-Colab-F9AB00?logo=googlecolab&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Actively%20Learning-brightgreen)
 
-The repository includes both Python scripts and a Jupyter Notebook created using Google Colab.
+</div>
+
+---
+
+## 📖 About
+
+This repository documents my journey of learning Python, from basic programs to data structures and common coding-interview problems. It contains a Python script and Jupyter notebooks (created in Google Colab), all written as hands-on practice.
+
+## 📂 Repository Structure
+
+```
+Python-Code/
+├── basics.py                  # Core programs: logic, loops, strings, real-world exercises
+├── Core_Concepts.ipynb        # Notebook covering core Python concepts
+├── Python_fundamentals.ipynb  # Notebook on lists, dictionaries, copying, and coding challenges
+└── README.md
+```
+
+| File | Description |
+|------|-------------|
+| `basics.py` | Mathematical programs, conditional statements, loops, string handling, and practical exercises |
+| `Core_Concepts.ipynb` | Notebook covering core Python concepts with worked examples |
+| `Python_fundamentals.ipynb` | Practice with lists, dictionaries, copying, sorting, frequency counting, and coding challenges |
 
 ## 📚 Topics Covered
 
 ### 🔹 Python Basics
 - Reversing strings
-- Checking even and odd numbers
-- Prime number checking
+- Even / odd check
+- Prime number check
 - Fibonacci series
 - Factorial calculation
 - Sum of digits
-- Palindrome checking
-- Finding the greatest and smallest among three numbers
+- Palindrome check
+- Greatest and smallest of three numbers
 - Swapping two numbers
 
 ### 🔹 Strings and Lists
 - String slicing and manipulation
 - Removing spaces and changing letter case
 - Counting vowels and consonants
-- Finding the sum and average of list elements
+- Sum and average of list elements
 - Sorting lists
-- Finding duplicate elements
+- Finding duplicates
 - Counting element frequencies
 
 ### 🔹 Dictionaries and Data Structures
 - Dictionary operations
-- Shallow copy and deep copy
+- Shallow copy vs. deep copy
 - Working with nested lists
-- Counting element and character frequencies
+- Element and character frequency counting
 - Finding the most frequent element
-- Finding the first and last non-repeating elements
+- First and last non-repeating elements
 
 ### 🔹 Coding Challenges
-- Two Sum problem
-- Grouping anagrams
+- Two Sum
+- Group Anagrams
 - Top K Frequent Elements
 - Longest Consecutive Sequence
 - Subarray Sum Equals K
 
 ### 🔹 Mathematical and Real-World Programs
-- Celsius and Fahrenheit conversion
-- Leap year checking
+- Celsius ↔ Fahrenheit conversion
+- Leap year check
 - Simple interest calculation
 - Billing system with 5% GST
 - Student grading system
@@ -53,63 +80,85 @@ The repository includes both Python scripts and a Jupyter Notebook created using
 - Student attendance calculation
 - Electricity bill calculation using consumption slabs
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- **Language:** Python
-- **Notebook Environment:** Google Colab / Jupyter Notebook
-- **Version Control:** Git and GitHub
+- **Language:** Python 3
+- **Environment:** Google Colab / Jupyter Notebook
+- **Version Control:** Git & GitHub
 
-## 📂 Repository Structure
+## 🚀 Getting Started
 
-```text
-Python-Code/
-├── Python_fundamentals.ipynb
-├── README.md
-└── basics.py
-```
+### Prerequisites
+- [Python 3.x](https://www.python.org/downloads/) installed
+- (Optional) Jupyter Notebook / JupyterLab, or a free [Google Colab](https://colab.research.google.com/) account
 
-- `basics.py` — Python basics, mathematical programs, conditional statements, loops, strings, and practical exercises.
-- `Python_fundamentals.ipynb` — Python practice involving lists, dictionaries, copying, sorting, frequency counting, and coding challenges.
-
-## 🚀 How to Run
-
-### Option 1: Run the Python Script
-
-1. Install Python on your computer.
-2. Clone or download this repository.
-3. Open a terminal in the repository folder.
-4. Run the following command:
+### Clone the repository
 
 ```bash
-python "basics.py"
+git clone https://github.com/NikitaRakhade29/Python-Code.git
+cd Python-Code
 ```
 
-Follow the prompts to enter input whenever requested.
+### Run the Python script
 
-### Option 2: Run the Jupyter Notebook
+```bash
+python basics.py
+```
 
+Enter input when prompted.
+
+### Run the notebooks
+
+**Google Colab**
 1. Open [Google Colab](https://colab.research.google.com/).
-2. Upload `Python_fundamentals.ipynb`.
-3. Run the cells individually or use **Runtime → Run all**.
+2. Go to **File → Upload notebook** and select `Core_Concepts.ipynb` or `Python_fundamentals.ipynb`.
+3. Run cells one by one, or use **Runtime → Run all**.
 
-You can also open the notebook locally using Jupyter Notebook or JupyterLab.
+**Locally**
+
+```bash
+pip install notebook
+jupyter notebook
+```
+
+Then open either `.ipynb` file from the browser window.
 
 ## 🎯 Learning Goals
 
-- Build a strong foundation in Python programming.
-- Improve logical thinking and problem-solving skills.
-- Understand Python lists, dictionaries, strings, and copying techniques.
-- Practice common data structure and algorithm problems.
-- Write cleaner, more readable, and efficient code.
-- Track my progress through consistent hands-on practice.
+- Build a strong foundation in Python programming
+- Sharpen logical thinking and problem-solving skills
+- Understand lists, dictionaries, strings, and copying techniques
+- Practice common data structure and algorithm problems
+- Write cleaner, more readable, and efficient code
+- Track progress through consistent hands-on practice
 
-## 🌱 My Learning Journey
+## 🗺️ Roadmap
 
-This repository is part of my continuous learning journey in Python. I will keep adding practice programs, exploring new concepts, and solving more challenging problems as I improve my programming skills.
+- [ ] Add more problems on arrays, strings, and hashing
+- [ ] Add object-oriented programming (OOP) examples
+- [ ] Add file handling and exception handling programs
+- [ ] Add recursion, searching, and sorting algorithm practice
+- [ ] Add mini projects
 
-**Learning step by step, solving problems, and growing as a programmer!** 🚀
+## 🌱 Learning Journey
+
+This repository is part of my continuous learning in Python. I'll keep adding new programs, exploring new concepts, and solving harder problems as I grow as a programmer.
+
+> *Learning step by step, solving problems, and growing as a programmer!* 🚀
+
+## 🤝 Contributing
+
+Suggestions and improvements are welcome! Feel free to open an issue or submit a pull request.
+
+## 👩‍💻 Author
+
+**Nikita Rakhade**
+GitHub: [@NikitaRakhade29](https://github.com/NikitaRakhade29)
 
 ---
 
-⭐ If you find this repository useful, feel free to explore the code and follow my learning journey.
+<div align="center">
 
+⭐ If you find this repository useful, consider giving it a star!
+
+</div>
